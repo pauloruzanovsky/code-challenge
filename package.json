@@ -6,10 +6,12 @@
     "cypress": "unset NODE_OPTIONS && cypress open",
     "lint": "eslint .",
     "pretjs": "prettier --write \"**/*.js\"",
-    "quality": "yarn lint && yarn pretjs"
+    "quality": "yarn lint && yarn pretjs",
+    "fix-js": "eslint-auto-fix"
   },
   "dependencies": {
     "@babel/runtime": "^7.16.3",
+    "luxon": "^3.3.0",
     "meteor-node-stubs": "^1.1.0",
     "prettier": "^1.18.2",
     "react": "^17.0.2",
@@ -26,7 +28,8 @@
     "@testing-library/cypress": "^9.0.0",
     "babel-eslint": "^8.2.2",
     "cypress": "^12.3.0",
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1",
+    "eslint-auto-fix": "^1.0.4"
   },
   "eslintConfig": {
     "extends": [

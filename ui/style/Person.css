@@ -1,0 +1,32 @@
+
+td {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+}
+
+tr {
+    outline: 1px solid rgb(202, 202, 202);
+}
+
+button {
+    border-radius: 5px;
+    border: 0px;
+}
+
+button:hover {
+}
+.check-in-button {
+    cursor: pointer;
+    background-color: rgb(88, 174, 239);
+}
+
+.check-in-button:hover, .check-out-button:hover {
+    filter: brightness(90%);
+}
+
+.check-out-button {
+    cursor: pointer;
+    background-color:rgb(238, 161, 94);
+}
